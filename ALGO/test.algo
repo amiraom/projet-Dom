@@ -1,0 +1,33 @@
+ALGORITHM algorithm_name
+VAR
+    i,j,n,nbc,m : INTEGER;
+    i:=-1;
+    nbc:=0;
+    nbw:=1;
+    sentence:="Each character will be treated separately."
+    voyels:=["a","o","u","i","y","e"];
+    nbv:=1;
+BEGIN
+REPEAT
+    i++;
+    nbc:=nbc+1;
+UNTIL (sentence[i]!=".")
+whrite(nbc);
+
+  FOR i FROM 0 TO nbc STEP step  DO
+    IF (sentence[i]=" ") THEN
+        nbw:=nbw+1;
+    END_IF
+  END_FOR
+  whrite(nbw);
+
+  FOR n FROM 0 TO nbc STEP step  DO
+    FOR m FROM 0 TO 6 STEP step  DO
+        IF (sentence[n]=voyels[m]) THEN
+            nbv=nbv+1;
+        END_IF
+    END_FOR
+  END_FOR
+  whrite(nbv);
+  
+END

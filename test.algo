@@ -1,0 +1,10 @@
+ALGORITHM algorithm_name
+VAR
+    i,j,nbc : INTEGER;
+    nbc:=0;
+    sentence:="Each character will be treated separately."
+BEGIN
+    FOR i FROM 0 TO sentence.length STEP step  DO
+        nbc:=nbc+i;
+    END_FOR
+END
