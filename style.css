@@ -1,0 +1,111 @@
+h1 {
+    margin-bottom: 0;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+}
+#wrapper{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 50px;
+}
+.product-image {
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.listproduct .product-image, .product-image {
+    margin-bottom: 8px;
+}
+.media-middle {
+    vertical-align: middle;
+}
+
+.product-line-grid-left img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.btnP ,.btnM{
+
+
+            display:block;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: 1px solid #666;
+            background-color:#666;
+            transform: scale(0.7);
+}
+.panier{
+
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+ .cart-summary-line.cart-total {
+    background-color: transparent;
+    padding: 0.5rem;
+    border-top: 1px solid #F5F5F5;
+}
+.cart-summary-line:last-child {
+    margin-bottom: 0;
+}
+.cart-summary-line {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555;
+}
+.cart-summary-line.cart-total .label, .card-block.cart-summary-totals .cart-summary-line.cart-total .value {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+.cart-summary-line.cart-total .value {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+.cart-summary-line .value {
+    color: #232323;
+    float: right;
+}
+
+.btn-primary {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    background: #1ED760;
+    border-radius: 8px;
+    color: #fff;
+    border-color: transparent;
+    display: inline-block;
+}
+#tot{
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+
+}
